@@ -1,0 +1,1 @@
+Raw data files can be saved here. See www.stressdatabase.eu for the data access procedure.
