@@ -22,9 +22,9 @@ library(tidyverse)
 library(ComplexHeatmap)
 
 # Load data ---------------------------------------------------------------
-participants <- read_excel("data/raw/participants.xlsx")
-studies <- read_excel("data/raw/studies.xlsx", sheet = "meta_studies")
-q_group <- read.csv("data/raw/questionnaires_classification.csv", sep=";") # questionnaire classification needed for Fig3; ask VB in two weeks
+participants <- read_excel("data/participants.xlsx")
+studies <- read_excel("data/studies.xlsx", sheet = "meta_studies")
+q_group <- read.csv("data/questionnaires_classification.csv", sep=";") # questionnaire classification needed for Fig3; ask VB in two weeks
 
 # rename to same names as script VB
 meta <-studies %>% rename(study_id = `_id`,
