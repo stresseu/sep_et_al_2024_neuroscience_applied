@@ -3,7 +3,7 @@
 - contact: m.s.c.sep(at)amsterdamumc.nl
 
 ## Index
-_ `README.md`: an overview of the repository    
+_ `README.md`: an overview of the repository
 |___ `data`: raw data
 |___ `R`: contains the R-code for figures
 |___ `results`: results of the analyses (figures)    
